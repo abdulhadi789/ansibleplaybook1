@@ -1,0 +1,12 @@
+---
+- name: install java in all nodes
+  hosts: all
+  tasks: 
+
+    -name: install java in all nodes
+     yum: 
+
+
+      name: install java in all nodes
+      state: present
+...
